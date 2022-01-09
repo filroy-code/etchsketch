@@ -1,0 +1,29 @@
+.block {
+    display: flex;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background-color: red;
+}
+
+.blockRow {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 512px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .block:hover {
+    background-color: yellow;
+} */
